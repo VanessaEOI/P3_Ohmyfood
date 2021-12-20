@@ -9,10 +9,52 @@
     <script src="https://kit.fontawesome.com/d6d76bda22.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
     <header>
         <i class="fa-solid fa-arrow-left"></i>
         <img src="./images/logo/ohmyfood@2x.svg" alt="Logo ohmyfood">
     </header>
-    
+
+    <main>
+
+        <section>
+            <h1>ohmyfood</h1>
+            <form method="post" action="traitement.php">
+                <label for="search"><i class="fa-solid fa-location-dot"></i></label>
+                <input type="text" name="recherche" id="search" placeholder="Paris, Belleville">
+            </form>
+        </section>
+
+        <section>
+            <h2>Réservez le menu qui vous convient</h2>
+            <p>Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
+            <button type="submit">Explorez nos restaurants</button>
+        </section>
+
+        <section>
+            <h3>Fonctionnement</h3>
+            <ol>
+                <li>
+                    <button type="submit">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                        Choisissez un restaurant
+                    </button>
+                </li>
+                <li>
+                    <button type="submit">
+                        <i class="fa-solid fa-list"></i>
+                        Composez votre menu
+                    </button>
+                </li>
+                <li>
+                    <button type="submit">
+                        <i class="fa-solid fa-store"></i>
+                        Dégustez au restaurant
+                    </button>
+                </li>
+            </ol>
+        </section>
+    </main>
+
 </body>
 </html>
