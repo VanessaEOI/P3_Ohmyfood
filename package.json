@@ -1,0 +1,19 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "Projet_3",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/style.scss:./css/style.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VanessaEOI/ohmyfood.git"
+  },
+  "author": "VanessaE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VanessaEOI/ohmyfood/issues"
+  },
+  "homepage": "https://github.com/VanessaEOI/ohmyfood#readme"
+}
