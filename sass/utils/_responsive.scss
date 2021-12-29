@@ -1,0 +1,22 @@
+// Breakpoints
+$mobile: 375px!default;
+$small: 576px!default;
+$medium: 768px!default;
+$large: 992px!default;
+$x-large: 1200px!default;
+
+// Media queries
+$mobile-up: "only screen and (min-width: #{$mobile})";
+$mobile-down: "only screen and (max-width: #{$mobile})";
+
+$small-up: "only screen and (min-width: #{$small})";
+$small-down: "only screen and (max-width: #{$small})";
+
+$medium-up: "only screen and (min-width: #{$medium})";
+$medium-down: "only screen and (max-width: #{$medium})";
+
+$large-up: "only screen and (min-width: #{$large})";
+$large-down: "only screen and (max-width: #{$large})";
+
+$x-large-up: "only screen and (min-width: #{$x-large})";
+$x-large-down: "only screen and (max-width: #{$x-large})";
