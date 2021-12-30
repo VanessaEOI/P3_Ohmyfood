@@ -1,8 +1,12 @@
 @import "./utils/variables";
 @import "./utils/responsive";
+@import "./utils/mixins";
+
+*{
+    font-family: $mainfont;
+}
 
 header{
-    box-shadow: $box-shadow;
     padding: $padding;
     display: flex;
     justify-content: center;
@@ -13,8 +17,41 @@ header{
     }
 }
 
-.section-1_search{
+.section-1{
+    box-shadow: $box-shadow;
     display: flex;
     justify-content: center;
+    padding: $padding;
+    background-color: $grey;
+    & input{
+        border: none;
+        background-color: transparent;
+    }
+    & ::placeholder{
+        color: $black;
+        text-align: center;
+    }
+}
+
+.section-2{
+    height: auto;
+    padding: $padding;
     margin: $margin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    & h2{
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 900;
+        margin: $margin;
+    }
+    & p{
+        text-align: center;
+        font-weight: 300;
+        margin: $margin/2;
+    }
+    & button{
+        @include pink-button;
+    }
 }
