@@ -3,4 +3,18 @@
 
 header{
     box-shadow: $box-shadow;
+    padding: $padding;
+    display: flex;
+    justify-content: center;
+
+    // hiding arrow main page
+    & .arrow-display{
+        display: none;
+    }
+}
+
+.section-1_search{
+    display: flex;
+    justify-content: center;
+    margin: $margin;
 }

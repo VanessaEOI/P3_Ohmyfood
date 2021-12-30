@@ -1,1 +1,17 @@
-header{box-shadow:0 .2rem .7rem rgba(0,0,0,.15)}/*# sourceMappingURL=style.css.map */
+header {
+  box-shadow: 0 0.2rem 0.7rem rgba(0, 0, 0, 0.15);
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+header .arrow-display {
+  display: none;
+}
+
+.section-1_search {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */
