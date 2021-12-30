@@ -1,7 +1,3 @@
-* {
-  font-family: "Roboto", sans-serif;
-}
-
 header {
   padding: 1rem;
   display: flex;
@@ -175,6 +171,54 @@ footer ul {
   color: white;
   line-height: 2rem;
   padding: 0;
+}
+
+header .fa-arrow-left {
+  color: #353535;
+  position: absolute;
+  left: 1rem;
+  top: 1.5rem;
+  font-size: 1.3rem;
+  line-height: 1rem;
+  padding: 0 0.5rem;
+}
+
+.main_lapalettedugout {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+article {
+  border-radius: 2rem;
+  margin-top: -2rem;
+  padding-top: 1rem;
+  background-color: white;
+  z-index: 1;
+}
+article .title-restaurant-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+article .title-restaurant-page i {
+  padding: 1rem;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  color: #7e7e7e;
+}
+article h1 {
+  font-family: "Shrikhand", cursive;
+  font-weight: normal;
+  margin: 1rem;
+}
+
+aside > img {
+  width: 100%;
+  object-fit: cover;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */

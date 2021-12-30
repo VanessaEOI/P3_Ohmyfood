@@ -1,0 +1,14 @@
+footer{
+    background-color: $dark-grey;
+    padding: $padding*2;
+    & img{
+        filter: invert(100%);
+        width: 30%;
+    }
+    & ul{
+        list-style-type: none;
+        color: white;
+        line-height: 2rem;
+        padding: 0;
+    }
+}

@@ -1,0 +1,10 @@
+header{
+    padding: $padding;
+    display: flex;
+    justify-content: center;
+
+    // hiding arrow main page
+    & .arrow-display{
+        display: none;
+    }
+}

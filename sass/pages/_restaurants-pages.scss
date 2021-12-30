@@ -1,0 +1,44 @@
+header{
+    .fa-arrow-left{
+        color: $dark-grey;
+        position: absolute;
+        left: 1rem;
+        top: 1.5rem;
+        font-size: 1.3rem;
+        line-height: 1rem;
+        padding: 0 0.5rem;
+    }
+}
+
+.main_lapalettedugout{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+article{
+    border-radius: 2rem;
+    margin-top: -2rem;
+    padding-top: $padding;
+    background-color: white;
+    z-index: 1;
+    & .title-restaurant-page{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        & i{
+            padding: $padding;
+            font-size: 1.5rem;
+            line-height: 1.8rem;
+            color: $grey-icons;
+        }
+    }
+    & h1{
+        font-family: $logotitlefont;
+        font-weight: normal;
+        margin: 1rem;    }
+}
+
+aside>img{
+    width: 100%;
+    object-fit: cover;
+}
