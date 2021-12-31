@@ -241,6 +241,13 @@ article .menu__dishcard {
   align-items: center;
   height: 5rem;
   margin: 1rem 0;
+  position: relative;
+}
+article .menu__dishcard::before {
+  content: "\f058";
+  position: absolute;
+  font-family: FontAwesome;
+  right: 0;
 }
 article .menu__dishcard p {
   padding-right: 1rem;
