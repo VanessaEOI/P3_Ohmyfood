@@ -19,7 +19,7 @@ article{
     border-radius: 2rem;
     margin-top: -2rem;
     padding-top: $padding;
-    background-color: white;
+    background-color: $light-grey;
     z-index: 1;
     & .title-restaurant-page{
         display: flex;
@@ -35,7 +35,35 @@ article{
     & h1{
         font-family: $logotitlefont;
         font-weight: normal;
-        margin: 1rem;    }
+        margin: 1rem;
+    }
+    & .menu{
+        padding: $padding;
+        & h2{
+            text-transform: uppercase;
+            font-weight: 300;           
+        }
+        & span{
+            color: transparent;
+            border-top: 0.3rem solid $tertiary;
+        }
+        &__dishcard{
+            background-color: white;border-radius: 1rem;
+            box-shadow: $box-shadow;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            height: 5rem;
+            margin: $margin 0;
+            & h3{
+                margin: 0.5rem $margin;
+            }
+            & p{
+                margin: 0.5rem $margin;
+            }
+        }
+    }
 }
 
 aside>img{

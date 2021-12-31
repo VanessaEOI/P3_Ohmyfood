@@ -192,7 +192,7 @@ article {
   border-radius: 2rem;
   margin-top: -2rem;
   padding-top: 1rem;
-  background-color: white;
+  background-color: #f6f6f6;
   z-index: 1;
 }
 article .title-restaurant-page {
@@ -210,6 +210,34 @@ article h1 {
   font-family: "Shrikhand", cursive;
   font-weight: normal;
   margin: 1rem;
+}
+article .menu {
+  padding: 1rem;
+}
+article .menu h2 {
+  text-transform: uppercase;
+  font-weight: 300;
+}
+article .menu span {
+  color: transparent;
+  border-top: 0.3rem solid #99E2D0;
+}
+article .menu__dishcard {
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0 0.2rem 0.3rem rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+  margin: 1rem 0;
+}
+article .menu__dishcard h3 {
+  margin: 0.5rem 1rem;
+}
+article .menu__dishcard p {
+  margin: 0.5rem 1rem;
 }
 
 aside > img {
