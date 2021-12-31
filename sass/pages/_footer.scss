@@ -10,5 +10,14 @@ footer{
         color: white;
         line-height: 2rem;
         padding: 0;
+            & i {
+                width: 1.8rem;
+            }
+    }
+    & p{
+        font-family: $logotitlefont;
+        color: white;
+        margin: 0 0 $margin;
+        font-size: 1.2rem;
     }
 }

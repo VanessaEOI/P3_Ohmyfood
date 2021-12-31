@@ -44,7 +44,7 @@ header .arrow-display {
 }
 .section-2 button {
   border-radius: 2rem;
-  padding: 1rem;
+  padding: 1rem 2rem;
   margin: 1.5rem;
   border: none;
   background: linear-gradient(173deg, #FF79DA, #9356DC);
@@ -172,6 +172,15 @@ footer ul {
   line-height: 2rem;
   padding: 0;
 }
+footer ul i {
+  width: 1.8rem;
+}
+footer p {
+  font-family: "Shrikhand", cursive;
+  color: white;
+  margin: 0 0 1rem;
+  font-size: 1.2rem;
+}
 
 header .fa-arrow-left {
   color: #353535;
@@ -238,6 +247,22 @@ article .menu__dishcard h3 {
 }
 article .menu__dishcard p {
   margin: 0.5rem 1rem;
+  text-overflow: ellipsis;
+}
+article .button-restaurant {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+article .button-restaurant button {
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+  margin: 1.5rem;
+  border: none;
+  background: linear-gradient(173deg, #FF79DA, #9356DC);
+  color: white;
+  box-shadow: 0 0.2rem 0.3rem rgba(0, 0, 0, 0.3);
 }
 
 aside > img {

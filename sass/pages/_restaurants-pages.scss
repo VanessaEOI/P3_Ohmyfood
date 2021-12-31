@@ -61,7 +61,17 @@ article{
             }
             & p{
                 margin: 0.5rem $margin;
+                text-overflow: ellipsis;
             }
+        }
+    }
+    & .button-restaurant{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-bottom: $margin*2;
+        & button{
+            @include pink-button;
         }
     }
 }
