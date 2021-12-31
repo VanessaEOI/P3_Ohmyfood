@@ -242,12 +242,23 @@ article .menu__dishcard {
   height: 5rem;
   margin: 1rem 0;
 }
-article .menu__dishcard h3 {
-  margin: 0.5rem 1rem;
-}
 article .menu__dishcard p {
+  padding-right: 1rem;
+}
+article .menu__dishcard .dishcard-text {
+  white-space: nowrap;
+  overflow: hidden;
+  width: 80%;
+}
+article .menu__dishcard .dishcard-text h3 {
   margin: 0.5rem 1rem;
   text-overflow: ellipsis;
+  overflow: hidden;
+}
+article .menu__dishcard .dishcard-text p {
+  margin: 0.5rem 1rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 article .button-restaurant {
   display: flex;

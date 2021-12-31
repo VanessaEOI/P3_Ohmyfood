@@ -56,12 +56,23 @@ article{
             align-items: center;
             height: 5rem;
             margin: $margin 0;
-            & h3{
-                margin: 0.5rem $margin;
-            }
             & p{
-                margin: 0.5rem $margin;
-                text-overflow: ellipsis;
+                padding-right: $padding;
+            }
+            & .dishcard-text{
+                white-space: nowrap;
+                overflow: hidden;
+                width: 80%;
+                & h3{
+                    margin: 0.5rem $margin;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                }
+                & p{
+                    margin: 0.5rem $margin;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                }
             }
         }
     }
