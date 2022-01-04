@@ -30,7 +30,7 @@
     & p{
         text-align: center;
         font-weight: 300;
-        margin: $margin/2;
+        margin: calc($margin / 2);
     }
     & button{
         @include pink-button;

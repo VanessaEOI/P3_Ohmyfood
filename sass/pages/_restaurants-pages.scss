@@ -39,13 +39,18 @@ article{
     }
     & .menu{
         padding: $padding;
+        position: relative;
         & h2{
             text-transform: uppercase;
-            font-weight: 300;           
-        }
-        & span{
-            color: transparent;
-            border-top: 0.3rem solid $tertiary;
+            font-weight: 300;      
+            &::before{
+                content: "";
+                position: absolute;
+                background-color: $tertiary;
+                width: 2.5em;
+                height: 0.2rem;
+                top:4.3rem;
+            }     
         }
         &__dishcard{
             background-color: white;border-radius: 1rem;

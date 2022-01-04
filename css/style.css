@@ -222,14 +222,19 @@ article h1 {
 }
 article .menu {
   padding: 1rem;
+  position: relative;
 }
 article .menu h2 {
   text-transform: uppercase;
   font-weight: 300;
 }
-article .menu span {
-  color: transparent;
-  border-top: 0.3rem solid #99E2D0;
+article .menu h2::before {
+  content: "";
+  position: absolute;
+  background-color: #99E2D0;
+  width: 2.5em;
+  height: 0.2rem;
+  top: 4.3rem;
 }
 article .menu__dishcard {
   background-color: white;
