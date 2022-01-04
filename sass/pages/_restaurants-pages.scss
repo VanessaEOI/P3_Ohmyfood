@@ -53,7 +53,7 @@ article{
             }     
         }
         &__dishcard{
-            background-color: white;border-radius: 1rem;
+            background-color: #fff;border-radius: 1rem;
             box-shadow: $box-shadow;
             display: flex;
             flex-direction: row;
@@ -62,9 +62,7 @@ article{
             height: 5rem;
             margin: $margin 0;
             position: relative;
-            &::before{
-                @include dishes-check;
-            }
+            overflow: hidden;
             & p{
                 padding-right: $padding;
             }
@@ -81,6 +79,30 @@ article{
                     margin: 0.5rem $margin;
                     text-overflow: ellipsis;
                     overflow: hidden;
+                }
+                & .dishcard-check{
+                    background-color: $tertiary;
+                    width: 25%;
+                    height: 100%;
+                    position: absolute;
+                    top: 0;
+                    right: -25%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    transition: transform 330ms ease-in-out;
+                    & i{
+                        color: $tertiary;
+                        background-color: #fff;
+                        height: 1.8rem;
+                        width: 1.8rem;
+                        border-radius: 50%;
+                        text-align: center;    
+                        line-height: 1.8rem;
+                    }
+                    & :hover{
+                        transform: translateX(-100%);
+                    }
                 }
             }
         }

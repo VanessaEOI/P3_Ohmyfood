@@ -7,7 +7,7 @@ footer{
     }
     & ul{
         list-style-type: none;
-        color: white;
+        color: #fff;
         line-height: 2rem;
         padding: 0;
             & i {
@@ -16,7 +16,7 @@ footer{
     }
     & p{
         font-family: $logotitlefont;
-        color: white;
+        color: #fff;
         margin: 0 0 $margin;
         font-size: 1.2rem;
     }

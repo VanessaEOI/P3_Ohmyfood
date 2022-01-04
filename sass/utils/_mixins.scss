@@ -4,15 +4,7 @@
     margin: 1.5rem;
     border: none;
     background: $background-button;
-    color: white;
+    color: #fff;
     box-shadow: $box-shadow;
 }
 
-@mixin dishes-check {
-    content: "\f058";
-    position: absolute;
-    font-family: FontAwesome;
-    right: 0;
-}
-
-// <i class="fas fa-check-circle">f058</i>
