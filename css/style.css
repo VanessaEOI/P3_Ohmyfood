@@ -270,11 +270,10 @@ article .menu__dishcard .dishcard-text .dishcard-check {
   height: 100%;
   position: absolute;
   top: 0;
-  right: -25%;
+  right: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: transform 330ms ease-in-out;
 }
 article .menu__dishcard .dishcard-text .dishcard-check i {
   color: #99E2D0;
@@ -284,9 +283,6 @@ article .menu__dishcard .dishcard-text .dishcard-check i {
   border-radius: 50%;
   text-align: center;
   line-height: 1.8rem;
-}
-article .menu__dishcard .dishcard-text .dishcard-check :hover {
-  transform: translateX(-100%);
 }
 article .button-restaurant {
   display: flex;

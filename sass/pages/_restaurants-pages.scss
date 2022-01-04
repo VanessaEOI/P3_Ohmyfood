@@ -86,11 +86,10 @@ article{
                     height: 100%;
                     position: absolute;
                     top: 0;
-                    right: -25%;
+                    right: 0;
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    transition: transform 330ms ease-in-out;
                     & i{
                         color: $tertiary;
                         background-color: #fff;
@@ -99,9 +98,6 @@ article{
                         border-radius: 50%;
                         text-align: center;    
                         line-height: 1.8rem;
-                    }
-                    & :hover{
-                        transform: translateX(-100%);
                     }
                 }
             }
