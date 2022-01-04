@@ -86,7 +86,7 @@ article{
                     height: 100%;
                     position: absolute;
                     top: 0;
-                    right: 0;
+                    right: -25%;
                     display: flex;
                     justify-content: center;
                     align-items: center;
@@ -100,6 +100,9 @@ article{
                         line-height: 1.8rem;
                     }
                 }
+            }
+            & :hover > .dishcard-check{
+                right: 0;
             }
         }
     }

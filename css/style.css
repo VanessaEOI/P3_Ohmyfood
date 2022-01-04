@@ -270,7 +270,7 @@ article .menu__dishcard .dishcard-text .dishcard-check {
   height: 100%;
   position: absolute;
   top: 0;
-  right: 0;
+  right: -25%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -283,6 +283,9 @@ article .menu__dishcard .dishcard-text .dishcard-check i {
   border-radius: 50%;
   text-align: center;
   line-height: 1.8rem;
+}
+article .menu__dishcard :hover > .dishcard-check {
+  right: 0;
 }
 article .button-restaurant {
   display: flex;
