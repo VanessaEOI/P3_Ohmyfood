@@ -321,11 +321,49 @@ article .button-restaurant button {
 }
 article .button-restaurant button:hover {
   --x:100%;
+  color: #000;
 }
 
 aside > img {
   width: 100%;
   object-fit: cover;
+}
+
+@keyframes progress-bar {
+  0% {
+    transform: scaleX(0);
+  }
+  17% {
+    transform: scaleX(0.18);
+  }
+  24% {
+    transform: scaleX(0.4);
+    animation-timing-function: cubic-bezier(0.9, 0, 0.1, 1);
+  }
+  46% {
+    transform: scaleX(0.81);
+    animation-timing-function: cubic-bezier(0.25, 0.25, 1);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+@keyframes progress-after {
+  0% {
+    transform: translateX(-9999px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.progress__bar {
+  transform-origin: left;
+  transform: scaleX(0.5);
+  animation: progress-bar 1000ms 150ms both;
+}
+
+.progress-after {
+  animation: progress-after 0ms 1300ms both;
 }
 
 * {
