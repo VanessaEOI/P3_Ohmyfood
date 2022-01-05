@@ -1,4 +1,3 @@
-@charset "UTF-8";
 header {
   padding: 1rem;
   display: flex;
@@ -289,16 +288,16 @@ article .menu__dishcard .dishcard-check i {
   border-radius: 50%;
   text-align: center;
   line-height: 1.8rem;
-  transform: rotate(0°);
+  transform: rotate(360deg);
 }
 article .menu :hover > .dishcard-check {
   transform-origin: 100% 0;
   transform: translateX(0);
-  transition: transform 400ms ease-in-out;
+  transition: transform 600ms ease-in-out;
 }
 article .menu :hover > .dishcard-check > i {
-  transform: rotate(360°);
-  transition: transform 400ms ease-in-out;
+  transform: rotate(0deg);
+  transition: transform 600ms ease-in-out;
 }
 article .button-restaurant {
   display: flex;
