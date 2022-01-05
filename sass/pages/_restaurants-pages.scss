@@ -121,6 +121,9 @@ article{
         margin-bottom: $margin*2;
         & button{
             @include pink-button;
+            &:hover{
+                --x:100%;
+            }
         }
     }
 }
