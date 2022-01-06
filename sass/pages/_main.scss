@@ -35,7 +35,7 @@
     & button{
         @include pink-button;
         &:hover{
-            --x:100%;
+            @include pink-button-hover;
         }
     }
 }

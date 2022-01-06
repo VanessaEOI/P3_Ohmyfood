@@ -8,3 +8,8 @@
     box-shadow: $box-shadow;
     transition: 300ms;
 }
+
+@mixin pink-button-hover{
+    --x:100%;
+    color: $black;
+}

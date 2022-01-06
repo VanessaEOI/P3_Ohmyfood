@@ -122,8 +122,7 @@ article{
         & button{
             @include pink-button;
             &:hover{
-                --x:100%;
-                color: $black;
+                @include pink-button-hover;
             }
         }
     }

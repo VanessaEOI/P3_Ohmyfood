@@ -103,6 +103,7 @@ header {
 }
 .section-2 button:hover {
   --x:100%;
+  color: #000;
 }
 
 .section-3 {
