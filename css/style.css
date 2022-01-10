@@ -196,7 +196,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 .section-4 .cards__text h4 {
   margin: 0;
@@ -210,6 +210,12 @@ header {
   font-size: 1.8rem;
   color: #7e7e7e;
   padding: 0.5rem;
+}
+.section-4 :hover > i {
+  font-weight: bold;
+  background: linear-gradient(to right, #FF79DA 0%, #9356DC 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 footer {
@@ -310,17 +316,23 @@ article .menu__dishcard {
 article .menu__dishcard p {
   padding-right: 1rem;
 }
-article .menu__dishcard .dishcard-text {
+article .menu__dishcard .dishcard-text-all {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+article .menu__dishcard .dishcard-text-all .dishcard-text {
   white-space: nowrap;
   overflow: hidden;
   width: 80%;
 }
-article .menu__dishcard .dishcard-text h3 {
+article .menu__dishcard .dishcard-text-all .dishcard-text h3 {
   margin: 0.5rem 1rem;
   text-overflow: ellipsis;
   overflow: hidden;
 }
-article .menu__dishcard .dishcard-text p {
+article .menu__dishcard .dishcard-text-all .dishcard-text p {
   margin: 0.5rem 1rem;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -350,11 +362,16 @@ article .menu__dishcard .dishcard-check i {
 article .menu :hover > .dishcard-check {
   transform-origin: 100% 0;
   transform: translateX(0);
-  transition: transform 600ms ease-in-out;
+  transition: transform 400ms ease-in-out;
+  position: relative;
 }
 article .menu :hover > .dishcard-check > i {
   transform: rotate(0deg);
-  transition: transform 600ms ease-in-out;
+  transition: transform 400ms ease-in-out;
+}
+article .menu :hover > .dishcard-text-all {
+  width: 70%;
+  transition: width 400ms ease-in-out;
 }
 article .button-restaurant {
   display: flex;

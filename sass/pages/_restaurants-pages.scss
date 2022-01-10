@@ -66,19 +66,25 @@ article{
             & p{
                 padding-right: $padding;
             }
-            & .dishcard-text{
-                white-space: nowrap;
-                overflow: hidden;
-                width: 80%;
-                & h3{
-                    margin: 0.5rem $margin;
-                    text-overflow: ellipsis;
+            & .dishcard-text-all{
+                display: flex;
+                width: 100%;
+                align-items: center;
+                justify-content: space-between;
+                & .dishcard-text{
+                    white-space: nowrap;
                     overflow: hidden;
-                }
-                & p{
-                    margin: 0.5rem $margin;
-                    text-overflow: ellipsis;
-                    overflow: hidden;
+                    width: 80%;
+                    & h3{
+                        margin: 0.5rem $margin;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                    }
+                    & p{
+                        margin: 0.5rem $margin;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                    }
                 }
             }
             & .dishcard-check{
@@ -107,11 +113,17 @@ article{
         & :hover > .dishcard-check{
             transform-origin: 100% 0;
             transform: translateX(0);
-            transition: transform 600ms ease-in-out;
+            transition: transform 400ms ease-in-out;
+            position: relative;
             & > i{
                 transform: rotate(0deg);
-                transition: transform 600ms ease-in-out;
+                transition: transform 400ms ease-in-out;
             }
+        }
+
+        & :hover > .dishcard-text-all{
+            width: 70%;
+            transition: width 400ms ease-in-out;
         }
     }
     & .button-restaurant{
