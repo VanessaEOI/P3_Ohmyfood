@@ -1,20 +1,30 @@
 @keyframes progress-bar {
   0% {
-    transform: scaleX(0);
+    transform: rotate(0deg) scale(0.1);
   }
-  17% {
-    transform: scaleX(0.18);
+  12% {
+    transform: rotate(45deg) scale(0.4);
   }
-  24% {
-    transform: scaleX(0.4);
-    animation-timing-function: cubic-bezier(0.9, 0, 0.1, 1);
+  25% {
+    transform: rotate(90deg) scale(0.7);
   }
-  46% {
-    transform: scaleX(0.81);
-    animation-timing-function: cubic-bezier(0.25, 0, 0.25, 1);
+  37% {
+    transform: rotate(135deg) scale(1);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.5);
+  }
+  62% {
+    transform: rotate(225deg) scale(3);
+  }
+  75% {
+    transform: rotate(270deg) scale(7);
+  }
+  87% {
+    transform: rotate(315deg) scale(50);
   }
   100% {
-    transform: scaleX(1);
+    transform: rotate(360deg, 0) scale(1000, 0);
   }
 }
 @keyframes progress-after {
@@ -29,25 +39,24 @@
   display: flex;
   justify-content: center;
   overflow: hidden;
+  width: 100%;
 }
 .progress__bar {
-  border-radius: 2rem;
+  border-radius: 10rem;
   background: linear-gradient(-90deg, #FF79DA, #9356DC);
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 5rem;
-  width: 80%;
-  height: 2rem;
-  transform-origin: left;
-  transform: scaleX(0.5);
-  animation: progress-bar 1000ms 150ms both;
+  top: 20%;
+  width: 8rem;
+  height: 8rem;
+  animation: progress-bar 1500ms 200ms ease-in-out;
 }
 
 .progress-after {
-  animation: progress-after 0ms 1300ms both;
+  animation: progress-after 0ms 1900ms both;
 }
 
 header {

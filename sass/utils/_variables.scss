@@ -18,6 +18,6 @@ $padding:1rem;
 
 $background-button: linear-gradient(329deg, var(--c1, lighten($secondary, 20%)), var(--c2, $primary) 70%, var(--c1, $secondary)) var(--x, 0)/ 400%;
 
-$prog-bar-dur: 1000ms;
-$prog-bar-delay: 150ms;
+$prog-bar-dur: 1500ms;
+$prog-bar-delay: 200ms;
 $progress-after-delay: $prog-bar-dur + $prog-bar-delay*2;
