@@ -1,3 +1,4 @@
+/* Keyframes landing page loading spinner */
 @keyframes progress-bar{
     0% {
         transform: rotate(0deg) scale(0.1);
@@ -36,3 +37,17 @@
         transform: translateX(0);
         }
     }
+/* Keyframes landing page loading spinner */
+
+/* Keyframes gradual loading menu pages */
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(0,100%,0);
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }

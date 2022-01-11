@@ -87,6 +87,12 @@
         display: flex;
         justify-content: flex-start;
     }
+    & :hover > button{
+        background-color: lighten($color: $primary, $amount: 35);
+        & i{
+            color: $primary;
+        }
+    }
 }
 
 .section-4{

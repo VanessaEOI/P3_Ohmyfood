@@ -12,4 +12,5 @@
 @mixin pink-button-hover{
     --x:100%;
     color: $black;
+    box-shadow: $box-shadow-hover;
 }
