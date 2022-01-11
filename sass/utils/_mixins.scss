@@ -14,3 +14,10 @@
     color: $black;
     box-shadow: $box-shadow-hover;
 }
+
+@mixin heart-fill{
+    font-weight: bold;
+    background: linear-gradient(to right, $secondary 0%, $primary 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

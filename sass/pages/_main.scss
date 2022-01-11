@@ -153,9 +153,6 @@
     }
 
     & :hover > i{
-        font-weight: bold;
-	    background: linear-gradient(to right, $secondary 0%, $primary 100%);
-	    -webkit-background-clip: text;
-	    -webkit-text-fill-color: transparent;
+        @include heart-fill;
     }
 }

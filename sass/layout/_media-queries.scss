@@ -1,0 +1,88 @@
+@media #{$medium-up} {
+    header{
+        height: 3rem;
+        justify-content: left !important;
+        box-shadow: inset 0px -3px 4px rgb(0 0 0 / 30%);
+        & .fa-arrow-left{
+            left: unset !important;
+            right: 1rem !important;
+        }
+    }
+    /* main page */
+    main{
+        display: flex!important;
+        width: 100%;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: auto;
+        & .section-1{
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            border-radius: 5rem;
+        }
+        & .section-2{
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            background-color: #FFF;
+        }
+        & .section-3{
+            width: 40%;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            & h3{
+                margin: 2rem;
+            }
+            & button{
+                height: 5rem;
+                align-items: center;
+            }
+        }
+        & .section-4{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: center;
+            & h3{
+                width: 100%;
+                margin: $margin;
+            }
+            & .cards{
+                position: relative;
+                width: 45%;
+                margin: 0.5rem;
+            }
+        }
+    }
+    /* main page */
+
+    /* Restaurants pages */
+    article{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        & .title-restaurant-page{
+            width: 100%;
+            margin: 0 1rem;
+            justify-content: space-between !important;
+        }
+        & .menu{
+            width: 45%;
+        }
+    }
+    /* Restaurants pages */
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        & ul{
+            text-align: center;
+        }
+    }
+}

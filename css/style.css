@@ -87,6 +87,96 @@
   animation-delay: 1.6s;
 }
 
+@media only screen and (min-width: 768px) {
+  header {
+    height: 3rem;
+    justify-content: left !important;
+    box-shadow: inset 0px -3px 4px rgba(0, 0, 0, 0.3);
+  }
+  header .fa-arrow-left {
+    left: unset !important;
+    right: 1rem !important;
+  }
+
+  /* main page */
+  main {
+    display: flex !important;
+    width: 100%;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+  }
+  main .section-1 {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    border-radius: 5rem;
+  }
+  main .section-2 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    background-color: #FFF;
+  }
+  main .section-3 {
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .section-3 h3 {
+    margin: 2rem;
+  }
+  main .section-3 button {
+    height: 5rem;
+    align-items: center;
+  }
+  main .section-4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
+  main .section-4 h3 {
+    width: 100%;
+    margin: 1rem;
+  }
+  main .section-4 .cards {
+    position: relative;
+    width: 45%;
+    margin: 0.5rem;
+  }
+
+  /* main page */
+  /* Restaurants pages */
+  article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+  article .title-restaurant-page {
+    width: 100%;
+    margin: 0 1rem;
+    justify-content: space-between !important;
+  }
+  article .menu {
+    width: 45%;
+  }
+
+  /* Restaurants pages */
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer ul {
+    text-align: center;
+  }
+}
 header {
   padding: 1rem;
   display: flex;
@@ -322,6 +412,12 @@ article .title-restaurant-page i {
   font-size: 1.5rem;
   line-height: 1.8rem;
   color: #7e7e7e;
+}
+article .title-restaurant-page i:hover {
+  font-weight: bold;
+  background: linear-gradient(to right, #FF79DA 0%, #9356DC 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 article h1 {
   font-family: "Shrikhand", cursive;
