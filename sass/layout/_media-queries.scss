@@ -109,6 +109,12 @@
             width: 70%;
         }
     }
+    h1{
+        font-size: 1.3rem !important;
+    }
+    h2{
+        font-size: 1.1rem !important;
+    }
     h3{
         font-size: 1rem !important;
     }
@@ -121,6 +127,12 @@
     i{
         line-height: 2 !important;
         font-size: 0.8rem !important;
+    }
+    button{
+        font-size: 0.8rem !important;
+        margin: 0.5rem !important;
+        padding: 0.6rem !important;
+        min-width: fit-content;
     }
     .section-1{
         padding: 0.2rem !important;
@@ -135,11 +147,6 @@
         & h2{
             font-size: 1rem !important;
         }
-        & button{
-            font-size: 0.8rem;
-            margin: 0.5rem !important;
-            padding: 0.6rem !important;
-        }
     }
     .section-3{
         & button{
@@ -151,6 +158,13 @@
             & li::before{
                 left: 0rem !important;
                 top: 0.8rem !important;
+            }
+        }
+    }
+    article{
+        & .menu{
+            & h2::before{
+                top: 3.5rem !important;
             }
         }
     }
