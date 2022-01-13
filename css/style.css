@@ -89,13 +89,15 @@
 
 @media only screen and (min-width: 768px) {
   header {
-    height: 3rem;
-    justify-content: left !important;
+    height: 4rem;
     box-shadow: inset 0px -3px 4px rgba(0, 0, 0, 0.3);
   }
   header .fa-arrow-left {
     left: unset !important;
     right: 1rem !important;
+  }
+  header img {
+    padding: 0.7rem;
   }
 
   /* main page */
@@ -108,7 +110,7 @@
   }
   main .section-1 {
     position: absolute;
-    top: 1rem;
+    top: 1.3rem;
     right: 1rem;
     border-radius: 5rem;
   }
@@ -175,6 +177,79 @@
   }
   footer ul {
     text-align: center;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .section-3 {
+    margin: auto !important;
+    width: 60%;
+  }
+
+  .section-4 .cards {
+    width: 60%;
+    position: relative;
+    margin: 1rem auto !important;
+  }
+}
+@media only screen and (max-width: 280px) {
+  header img {
+    width: 70%;
+  }
+
+  h3 {
+    font-size: 1rem !important;
+  }
+
+  h4 {
+    font-size: 0.9rem !important;
+  }
+
+  p {
+    font-size: 0.7rem;
+  }
+
+  i {
+    line-height: 2 !important;
+    font-size: 0.8rem !important;
+  }
+
+  .section-1 {
+    padding: 0.2rem !important;
+  }
+  .section-1 form {
+    width: 80%;
+    font-size: 0.7rem;
+    text-align: center;
+  }
+
+  .section-2 {
+    padding: 1rem !important;
+  }
+  .section-2 h2 {
+    font-size: 1rem !important;
+  }
+  .section-2 button {
+    font-size: 0.8rem;
+    margin: 0.5rem !important;
+    padding: 0.6rem !important;
+  }
+
+  .section-3 button {
+    font-size: 0.7rem !important;
+    margin: 0.5rem !important;
+    padding: 0.6rem !important;
+  }
+  .section-3 .numbered-list li::before {
+    left: 0rem !important;
+    top: 0.8rem !important;
+  }
+
+  footer ul {
+    font-size: 0.7rem;
+    line-height: 1.5rem !important;
+  }
+  footer ul i {
+    width: 1rem !important;
   }
 }
 header {
@@ -322,7 +397,7 @@ header {
 }
 .section-4 .cards img {
   width: 100%;
-  height: 12rem;
+  height: 8rem;
   object-fit: cover;
   border-radius: 1rem 1rem 0 0;
 }

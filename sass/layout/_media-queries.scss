@@ -1,11 +1,13 @@
 @media #{$medium-up} {
     header{
-        height: 3rem;
-        justify-content: left !important;
+        height: 4rem;
         box-shadow: inset 0px -3px 4px rgb(0 0 0 / 30%);
         & .fa-arrow-left{
             left: unset !important;
             right: 1rem !important;
+        }
+        & img{
+            padding: 0.7rem;
         }
     }
     /* main page */
@@ -17,7 +19,7 @@
         margin: auto;
         & .section-1{
             position: absolute;
-            top: 1rem;
+            top: 1.3rem;
             right: 1rem;
             border-radius: 5rem;
         }
@@ -83,6 +85,82 @@
         align-items: center;
         & ul{
             text-align: center;
+        }
+    }
+}
+
+@media screen and (min-width: $small) and (max-width: $medium) {
+    .section-3 {
+        margin: auto !important;
+        width: 60%;
+    }
+    .section-4{
+        .cards{
+            width: 60%;
+            position: relative;
+            margin: 1rem auto !important;
+        }
+    }
+}
+
+@media #{$x-small-down}{
+    header{
+        & img{
+            width: 70%;
+        }
+    }
+    h3{
+        font-size: 1rem !important;
+    }
+    h4{
+        font-size: 0.9rem !important;
+    }
+    p{
+        font-size: 0.7rem;
+    }
+    i{
+        line-height: 2 !important;
+        font-size: 0.8rem !important;
+    }
+    .section-1{
+        padding: 0.2rem !important;
+        & form{
+            width: 80%;
+            font-size: 0.7rem;
+            text-align: center;
+        }
+    }
+    .section-2{
+        padding: $padding !important;
+        & h2{
+            font-size: 1rem !important;
+        }
+        & button{
+            font-size: 0.8rem;
+            margin: 0.5rem !important;
+            padding: 0.6rem !important;
+        }
+    }
+    .section-3{
+        & button{
+            font-size: 0.7rem !important;
+            margin: 0.5rem !important;
+            padding: 0.6rem !important;
+        }
+        & .numbered-list{
+            & li::before{
+                left: 0rem !important;
+                top: 0.8rem !important;
+            }
+        }
+    }
+    footer{
+        ul{
+            font-size: 0.7rem;
+            line-height: 1.5rem !important;
+            & i{
+                width: 1rem !important;
+            }
         }
     }
 }

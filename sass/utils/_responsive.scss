@@ -1,4 +1,5 @@
 // Breakpoints
+$x-small: 280px!default;
 $mobile: 375px!default;
 $small: 576px!default;
 $medium: 768px!default;
@@ -6,6 +7,10 @@ $large: 992px!default;
 $x-large: 1200px!default;
 
 // Media queries
+
+$x-small-up: "only screen and (min-width: #{$x-small})";
+$x-small-down: "only screen and (max-width: #{$x-small})";
+
 $mobile-up: "only screen and (min-width: #{$mobile})";
 $mobile-down: "only screen and (max-width: #{$mobile})";
 
