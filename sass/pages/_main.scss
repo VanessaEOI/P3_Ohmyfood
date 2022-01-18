@@ -1,19 +1,22 @@
+/* Section 1 search bar */
 .section-1{
     box-shadow: inset $box-shadow;
     display: flex;
     justify-content: center;
-    padding: $padding;
+    padding: 0.7rem;
     background-color: $grey;
     & input{
         border: none;
         background-color: transparent;
     }
+    /* Styling placeholer search bar txt */
     & ::placeholder{
         color: $black;
         text-align: center;
     }
 }
 
+/* Section 2 Presentation & restaurant search */
 .section-2{
     background-color: $light-grey;
     height: auto;
@@ -39,9 +42,10 @@
         }
     }
 }
-  
+
+/* Section 3 Fonctionning tools */
 .section-3{
-    margin: $margin;
+    margin: $margin*3 $margin;
     & i{
         color: $grey-icons;
         margin: 0 $margin*1.25;
@@ -50,6 +54,7 @@
     & h3{
         font-size: 1.5rem;
     }
+    /* Styling circled numbers */
     & .numbered-list{
         counter-reset: li;
         list-style-type: none;
@@ -95,6 +100,7 @@
     }
 }
 
+/* Section 4 Restaurants cards */
 .section-4{
     background-color: $light-grey;
     padding: $padding;
@@ -104,6 +110,7 @@
         margin: 2rem 0 0.5rem;
         font-size: 1.5rem;
     }
+    /* Styling restaurants cards */
     & .cards{
         background-color: #fff;
         height: fit-content;

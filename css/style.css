@@ -36,7 +36,6 @@
     transform: translateX(0);
   }
 }
-/* Keyframes landing page loading spinner */
 /* Keyframes gradual loading menu pages */
 @keyframes fadeIn {
   from {
@@ -71,6 +70,7 @@
   animation: progress-after 0ms 1900ms both;
 }
 
+/* Restaurant pages fade in loading effect */
 .fade-in {
   opacity: 0;
   animation: fadeIn ease-in 1;
@@ -87,6 +87,7 @@
   animation-delay: 1.6s;
 }
 
+/* Above 768px */
 @media only screen and (min-width: 768px) {
   header {
     height: 4rem;
@@ -110,9 +111,10 @@
   }
   main .section-1 {
     position: absolute;
-    top: 1.3rem;
+    top: 1.7rem;
     right: 1rem;
     border-radius: 5rem;
+    font-size: 0.8rem;
   }
   main .section-2 {
     width: 50%;
@@ -179,6 +181,7 @@
     text-align: center;
   }
 }
+/* between 576px & 768px */
 @media screen and (min-width: 576px) and (max-width: 768px) {
   .section-3 {
     margin: auto !important;
@@ -191,6 +194,7 @@
     margin: 1rem auto !important;
   }
 }
+/* Under 280px */
 @media only screen and (max-width: 280px) {
   header img {
     width: 70%;
@@ -238,7 +242,7 @@
   }
 
   .section-2 {
-    padding: 1rem !important;
+    padding: 1.5rem !important;
   }
   .section-2 h2 {
     font-size: 1rem !important;
@@ -272,12 +276,14 @@ header {
   justify-content: center;
 }
 
+/* Section 1 search bar */
 .section-1 {
   box-shadow: inset 0 0.2rem 0.3rem rgba(0, 0, 0, 0.3);
   display: flex;
   justify-content: center;
-  padding: 1rem;
+  padding: 0.7rem;
   background-color: #eaeaea;
+  /* Styling placeholer search bar txt */
 }
 .section-1 input {
   border: none;
@@ -288,6 +294,7 @@ header {
   text-align: center;
 }
 
+/* Section 2 Presentation & restaurant search */
 .section-2 {
   background-color: #f6f6f6;
   height: auto;
@@ -323,8 +330,10 @@ header {
   box-shadow: 0 0.2rem 0.3rem rgba(0, 0, 0, 0.7);
 }
 
+/* Section 3 Fonctionning tools */
 .section-3 {
-  margin: 1rem;
+  margin: 3rem 1rem;
+  /* Styling circled numbers */
 }
 .section-3 i {
   color: #7e7e7e;
@@ -377,11 +386,13 @@ header {
   color: #9356DC;
 }
 
+/* Section 4 Restaurants cards */
 .section-4 {
   background-color: #f6f6f6;
   padding: 1rem;
   display: flex;
   flex-direction: column;
+  /* Styling restaurants cards */
 }
 .section-4 h3 {
   margin: 2rem 0 0.5rem;
@@ -469,6 +480,7 @@ footer p {
   font-size: 1.2rem;
 }
 
+/* Styling header arrow*/
 header .fa-arrow-left {
   color: #353535;
   position: absolute;
@@ -484,12 +496,15 @@ header .fa-arrow-left {
   flex-direction: column-reverse;
 }
 
+/* Styling menu */
 article {
   border-radius: 2rem;
   margin-top: -2rem;
   padding-top: 1rem;
   background-color: #f6f6f6;
   z-index: 1;
+  /* Styling starter/main/desert boxes */
+  /* Order button */
 }
 article .title-restaurant-page {
   display: flex;
@@ -516,10 +531,12 @@ article h1 {
 article .menu {
   padding: 1rem;
   position: relative;
+  /* Styling dish line & hover effect */
 }
 article .menu h2 {
   text-transform: uppercase;
   font-weight: 300;
+  margin-bottom: 2rem;
 }
 article .menu h2::before {
   content: "";
@@ -624,6 +641,7 @@ article .button-restaurant button:hover {
   box-shadow: 0 0.2rem 0.3rem rgba(0, 0, 0, 0.7);
 }
 
+/* Styling restaurant top image */
 aside > img {
   width: 100%;
   object-fit: cover;
