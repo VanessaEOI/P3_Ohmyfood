@@ -1,101 +1,101 @@
-/* Keyframes landing page loading spinner */
-@-webkit-keyframes loading-spinner{
+  /* Keyframes landing page loading spinner */
+@-webkit-keyframes loading-spinner {
     0% {
-        transform: rotate(0deg) scale(0.1);
+      transform: rotate(0deg) scale(0.1);
     }
-    12%{
-        transform: rotate(45deg) scale(0.4);
+    12% {
+      transform: rotate(45deg) scale(0.4);
     }
     25% {
-        transform: rotate(90deg) scale(0.7);
+      transform: rotate(90deg) scale(0.7);
     }
     37% {
-        transform: rotate(135deg) scale(1);
+      transform: rotate(135deg) scale(1);
     }
     50% {
-        transform: rotate(180deg) scale(1.5);
+      transform: rotate(180deg) scale(1.5);
     }
     62% {
-        transform: rotate(225deg) scale(3);
+      transform: rotate(225deg) scale(3);
     }
     75% {
-        transform: rotate(270deg) scale(7);
+      transform: rotate(270deg) scale(7);
     }
     87% {
-        transform: rotate(315deg) scale(50);
+      transform: rotate(315deg) scale(50);
     }
-    100% {
-        transform: rotate(360deg, 0) scale(1000, 0);
+    99% {
+      transform: rotate(360deg) scale(1000);
+    }
+    100%{
+      transform: rotate(0deg) scale(0);
     }
 }
-@keyframes loading-spinner{
+@keyframes loading-spinner {
     0% {
-        transform: rotate(0deg) scale(0.1);
+      transform: rotate(0deg) scale(0.1);
     }
-    12%{
-        transform: rotate(45deg) scale(0.4);
+    12% {
+      transform: rotate(45deg) scale(0.4);
     }
     25% {
-        transform: rotate(90deg) scale(0.7);
+      transform: rotate(90deg) scale(0.7);
     }
     37% {
-        transform: rotate(135deg) scale(1);
+      transform: rotate(135deg) scale(1);
     }
     50% {
-        transform: rotate(180deg) scale(1.5);
+      transform: rotate(180deg) scale(1.5);
     }
     62% {
-        transform: rotate(225deg) scale(3);
+      transform: rotate(225deg) scale(3);
     }
     75% {
-        transform: rotate(270deg) scale(7);
+      transform: rotate(270deg) scale(7);
     }
     87% {
-        transform: rotate(315deg) scale(50);
+      transform: rotate(315deg) scale(50);
     }
-    100% {
-        transform: rotate(360deg, 0) scale(1000, 0);
+    99% {
+      transform: rotate(360deg) scale(1000);
+    }
+    100%{
+      transform: rotate(0deg) scale(0);
     }
 }
-
-@-webkit-keyframes progress-after{
+@-webkit-keyframes progress-after {
     0% {
-        transform: translateX(-9999px);
+      transform: translateX(-9999px);
     }
     100% {
-        transform: translateX(0);
-        }
+      transform: translateX(0);
     }
-
-@keyframes progress-after{
+}
+@keyframes progress-after {
     0% {
-        transform: translateX(-9999px);
+      transform: translateX(-9999px);
     }
     100% {
-        transform: translateX(0);
-        }
+      transform: translateX(0);
     }
-
+}
+  
 /* Keyframes gradual loading menu pages */
-
 @-webkit-keyframes fadeIn {
     from {
       opacity: 0;
-      transform: translateY(0,100%,0);
     }
-  
     to {
       opacity: 1;
     }
-  }
-
+  
+}
 @keyframes fadeIn {
     from {
       opacity: 0;
-      transform: translateY(0,100%,0);
     }
-  
     to {
       opacity: 1;
-    }
-  }
+    } 
+  
+}

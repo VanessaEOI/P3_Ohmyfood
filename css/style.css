@@ -24,8 +24,11 @@
   87% {
     transform: rotate(315deg) scale(50);
   }
+  99% {
+    transform: rotate(360deg) scale(1000);
+  }
   100% {
-    transform: rotate(360deg, 0) scale(1000, 0);
+    transform: rotate(0deg) scale(0);
   }
 }
 @keyframes loading-spinner {
@@ -53,8 +56,11 @@
   87% {
     transform: rotate(315deg) scale(50);
   }
+  99% {
+    transform: rotate(360deg) scale(1000);
+  }
   100% {
-    transform: rotate(360deg, 0) scale(1000, 0);
+    transform: rotate(0deg) scale(0);
   }
 }
 @-webkit-keyframes progress-after {
@@ -77,7 +83,6 @@
 @-webkit-keyframes fadeIn {
   from {
     opacity: 0;
-    transform: translateY(0, 100%, 0);
   }
   to {
     opacity: 1;
@@ -86,7 +91,6 @@
 @keyframes fadeIn {
   from {
     opacity: 0;
-    transform: translateY(0, 100%, 0);
   }
   to {
     opacity: 1;
@@ -734,3 +738,5 @@ aside > img {
 .display-none {
   display: none;
 }
+
+/*# sourceMappingURL=style.css.map */
