@@ -11,7 +11,7 @@ header{
     }
 }
 
-.main_lapalettedugout{
+.main_restaurants{
     display: flex;
     flex-direction: column-reverse;
 }
@@ -26,7 +26,8 @@ article{
     & .title-restaurant-page{
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-between;
+        padding: 0 $padding;
         & i{
             padding: $padding;
             font-size: 1.5rem;
@@ -44,7 +45,7 @@ article{
     }
     /* Styling starter/main/desert boxes */
     & .menu{
-        padding: $padding;
+        padding: $padding $padding 0;
         position: relative;
         & h2{
             text-transform: uppercase;
@@ -153,4 +154,5 @@ article{
 aside>img{
     width: 100%;
     object-fit: cover;
+    max-height: 16rem;
 }
