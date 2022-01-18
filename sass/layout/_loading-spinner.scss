@@ -14,7 +14,7 @@
         top: 20%;
         width: 8rem;
         height: 8rem;
-        animation: progress-bar $prog-bar-dur $prog-bar-delay ease-in-out;
+        animation: loading-spinner $prog-bar-dur $prog-bar-delay ease-in-out;
     }
 }
 
