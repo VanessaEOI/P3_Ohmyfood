@@ -2,7 +2,8 @@ footer{
     background-color: $dark-grey;
     padding: $padding*2;
     & img{
-        filter: invert(100%);
+        -webkit-filter: invert(100%);
+                filter: invert(100%);
         width: 30%;
     }
     & ul{

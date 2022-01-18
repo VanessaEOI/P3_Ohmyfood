@@ -14,10 +14,12 @@
         top: 20%;
         width: 8rem;
         height: 8rem;
-        animation: loading-spinner $prog-bar-dur $prog-bar-delay ease-in-out;
+        -webkit-animation: loading-spinner $prog-bar-dur $prog-bar-delay ease-in-out;
+                animation: loading-spinner $prog-bar-dur $prog-bar-delay ease-in-out;
     }
 }
 
 .progress-after {
-    animation: progress-after 0ms $progress-after-delay both;
+    -webkit-animation: progress-after 0ms $progress-after-delay both;
+            animation: progress-after 0ms $progress-after-delay both;
 }
