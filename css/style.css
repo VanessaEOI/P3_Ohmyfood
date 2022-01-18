@@ -625,7 +625,7 @@ article .menu h2::before {
   position: absolute;
   background-color: #99E2D0;
   width: 2.5em;
-  height: 0.2rem;
+  height: 4px;
   top: 4.3rem;
 }
 article .menu__dishcard {
