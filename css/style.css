@@ -113,13 +113,13 @@
   top: 20%;
   width: 8rem;
   height: 8rem;
-  -webkit-animation: loading-spinner 1500ms 200ms ease-in-out;
-  animation: loading-spinner 1500ms 200ms ease-in-out;
+  -webkit-animation: loading-spinner 1000ms 200ms ease-in-out;
+  animation: loading-spinner 1000ms 200ms ease-in-out;
 }
 
 .progress-after {
-  -webkit-animation: progress-after 0ms 1900ms both;
-  animation: progress-after 0ms 1900ms both;
+  -webkit-animation: progress-after 0ms 1400ms both;
+  animation: progress-after 0ms 1400ms both;
 }
 
 /* Restaurant pages fade in loading effect */
