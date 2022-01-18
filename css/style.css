@@ -491,7 +491,7 @@ header .fa-arrow-left {
   padding: 0 0.5rem;
 }
 
-.main_restaurants {
+.main-restaurants-pages {
   display: flex;
   flex-direction: column-reverse;
 }
