@@ -20,5 +20,7 @@
     background: linear-gradient(to right, $secondary 0%, $primary 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    transition: all 1000ms ease-in-out;
+    animation: heart-fill ease-in 1;
+    animation-fill-mode: both;
+    animation-duration: 1500ms;
 }
