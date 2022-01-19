@@ -534,7 +534,9 @@ header {
   background: linear-gradient(to right, #FF79DA 0%, #9356DC 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  transition: all 500ms ease-in-out;
+  animation: heart-fill ease-in 1;
+  animation-fill-mode: both;
+  animation-duration: 500ms;
 }
 
 footer {
@@ -609,7 +611,9 @@ article .title-restaurant-page i:hover {
   background: linear-gradient(to right, #FF79DA 0%, #9356DC 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  transition: all 500ms ease-in-out;
+  animation: heart-fill ease-in 1;
+  animation-fill-mode: both;
+  animation-duration: 500ms;
 }
 article h1 {
   font-family: "Shrikhand", cursive;
