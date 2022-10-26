@@ -1,4 +1,4 @@
-## OpenClassrooms Project 3
+## ![logo OpenClassrooms](https://raw.githubusercontent.com/thierry-laval/archives/master/images/Logo_OpenClassrooms.png)  OpenClassrooms Project 3
 
 For this third project with OpenClassrooms, the goal was to start using SASS and to develop our skills on CSS effects.
 
